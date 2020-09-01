@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/HFZ_low"
+            android:scaleType="fitXY"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@mipmap/hongfangzi_low"
+    />
+
+    <ImageView
+            android:id="@+id/HFZ_YSZP"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:layout_width="450px"
+            android:layout_height="600px"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="30px"
+            android:layout_marginRight="1px"/>
+    <ImageView
+            android:id="@+id/HFZ_ZSZP"
+            android:background="@color/white"
+            android:scaleType="fitXY"
+            android:layout_width="490px"
+            android:layout_height="600px"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="30px"
+            android:layout_marginTop="30px"
+            android:layout_marginRight="1px"/>
+
+
+    <com.pushi.pushi08.until.MarqueeTextView
+            android:id="@+id/HFZ_YSXM"
+            android:layout_marginTop="660px"
+            android:textColor="@color/black"
+            android:textSize="72px"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="300px"
+            android:layout_height="130px"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:text=""/>
+    <TextView
+            android:id="@+id/HFZ_YSZC"
+            android:layout_below="@id/HFZ_YSXM"
+            android:textColor="@color/black"
+            android:textSize="45px"
+            android:gravity="center"
+            android:layout_width="300px"
+            android:layout_height="110px"
+            android:text=""/>
+
+    <ImageView
+            android:id="@+id/HFZ_DH"
+            android:background="@color/white"
+            android:layout_marginTop="25px"
+            android:scaleType="fitXY"
+            android:layout_toRightOf="@id/HFZ_YSXM"
+            android:layout_alignTop="@id/HFZ_YSXM"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:layout_marginRight="1px"/>
+
+
+    <com.pushi.pushi08.until.AutoScrollView
+            android:id="@+id/HFZ_AUTO"
+            android:layout_toRightOf="@id/HFZ_DH"
+            android:layout_alignTop="@id/HFZ_DH"
+            android:gravity="center"
+            android:scrollbars="vertical"
+            android:layout_width="720px"
+            android:layout_height="220px">
+        <TextView
+                android:id="@+id/HFZ_YSJJ"
+                android:layout_toRightOf="@id/HFZ_DH"
+                android:layout_alignTop="@id/HFZ_DH"
+                android:textColor="@color/black"
+                android:textSize="26px"
+                android:gravity="left"
+                android:layout_width="710px"
+                android:layout_height="220px"
+                android:text=""/>
+
+    </com.pushi.pushi08.until.AutoScrollView>
+
+
+    <TextView
+            android:id="@+id/HFZ_ZZJZ"
+            android:layout_below="@id/HFZ_YSZC"
+            android:textColor="@color/white"
+            android:layout_marginTop="10px"
+            android:textSize="90px"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="1080px"
+            android:layout_height="220px"
+            android:text="正在就诊:"/>
+
+    <TextView
+            android:id="@+id/HFZ_zb"
+            android:layout_below="@id/HFZ_ZZJZ"
+            android:textColor="#BE0000"
+            android:textSize="50px"
+            android:textStyle=""
+            android:gravity="center"
+            android:layout_width="360px"
+            android:layout_height="100px"
+            android:text="准备就诊"/>
+    <TextView
+            android:id="@+id/HFZ_hz"
+            android:layout_alignTop="@id/HFZ_zb"
+            android:layout_toRightOf="@id/HFZ_zb"
+            android:textColor="#BE0000"
+            android:textSize="50px"
+            android:textStyle=""
+            android:gravity="center"
+            android:layout_width="360px"
+            android:layout_height="100px"
+            android:text="回诊(刷卡优先)"/>
+    <TextView
+            android:id="@+id/HFZ_ewm"
+            android:layout_alignTop="@id/HFZ_zb"
+            android:layout_toRightOf="@id/HFZ_hz"
+            android:textColor="#BE0000"
+            android:textSize="50px"
+            android:textStyle=""
+            android:gravity="center"
+            android:layout_width="360px"
+            android:layout_height="100px"
+            android:text="预约扫码"/>
+    <com.pushi.pushi08.until.MarqueeTextView
+            android:id="@+id/HFZ_HZXM1"
+            android:layout_below="@id/HFZ_zb"
+            android:textColor="@color/black"
+            android:layout_marginTop="40px"
+            android:textSize="60px"
+            android:textStyle=""
+            android:gravity="center"
+            android:layout_width="360px"
+            android:layout_height="100px"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:text=""/>
+    <com.pushi.pushi08.until.MarqueeTextView
+            android:id="@+id/HFZ_HZXM2"
+            android:layout_below="@id/HFZ_HZXM1"
+            android:textColor="@color/black"
+            android:layout_marginTop="30px"
+            android:textSize="60px"
+            android:textStyle=""
+            android:gravity="center"
+            android:layout_width="360px"
+            android:layout_height="100px"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:text=""/>
+
+
+    <com.pushi.pushi08.until.MarqueeTextView
+            android:id="@+id/HFZ_HZXM3"
+            android:layout_below="@id/HFZ_hz"
+            android:layout_alignLeft="@id/HFZ_hz"
+            android:textColor="@color/black"
+            android:layout_marginTop="40px"
+            android:textSize="60px"
+            android:textStyle=""
+            android:gravity="center"
+            android:layout_width="360px"
+            android:layout_height="100px"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:text=""/>
+    <com.pushi.pushi08.until.MarqueeTextView
+            android:id="@+id/HFZ_HZXM4"
+            android:layout_below="@id/HFZ_HZXM3"
+            android:layout_alignLeft="@id/HFZ_hz"
+            android:textColor="@color/black"
+            android:layout_marginTop="30px"
+            android:textSize="60px"
+            android:textStyle=""
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:layout_width="360px"
+            android:layout_height="100px"
+            android:text=""/>
+
+    <ImageView
+            android:id="@+id/HFZ_EWNTP"
+            android:background="@color/white"
+            android:layout_below="@id/HFZ_ewm"
+            android:scaleType="fitXY"
+            android:layout_alignLeft="@id/HFZ_ewm"
+            android:layout_marginLeft="55px"
+            android:layout_marginTop="40px"
+            android:layout_width="260px"
+            android:layout_height="260px"
+    />
+
+    <Button android:id="@+id/HFZ_over"
+            android:layout_width="10px"
+            android:layout_height="10px"
+            android:text=""/>
+
+
+</RelativeLayout>

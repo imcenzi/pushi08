@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+            android:layout_width="1px"
+            android:layout_height="1px"
+            android:id="@+id/check_ok"
+            />
+
+    <ImageView
+            android:id="@id/webviewt"
+            android:background="@mipmap/demo2"
+            android:scaleType="fitXY"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+
+<!--    <ImageView-->
+<!--            android:layout_width="380px"-->
+<!--            android:layout_height="350px"-->
+<!--            android:background="@color/white"-->
+<!--            android:id="@+id/Code_e"-->
+<!--            android:layout_below="@+id/HZxm3"-->
+<!--            android:layout_toRightOf="@+id/HZxm1"-->
+<!--            android:layout_marginTop="30px"-->
+<!--            android:layout_marginLeft="90px"-->
+<!--            />-->
+
+
+
+</RelativeLayout>

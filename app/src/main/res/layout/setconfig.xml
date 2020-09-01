@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@mipmap/setconfig">
+
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="160px"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="基础配置"
+            android:gravity="center"
+            android:id="@+id/title"
+            />
+    <!--  本机IP  -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80px"
+            android:text="本机IP:"
+            android:textSize="60px"
+            android:layout_marginLeft="50px"
+            android:id="@+id/local_ip_ts"
+            android:layout_below="@+id/title"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+    <EditText
+            android:textColor="@color/white"
+            android:textSize="50px"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:id="@+id/local_ip"
+            android:layout_below="@id/title"
+            android:layout_toRightOf="@+id/local_ip_ts"
+            />
+    <!--服务器IP-->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80px"
+            android:text="服务路径:"
+            android:textSize="60px"
+            android:layout_marginLeft="50px"
+            android:id="@+id/service_ip_ts"
+            android:layout_below="@+id/local_ip_ts"
+            android:layout_marginTop="50px"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+    <EditText
+            android:textColor="@color/white"
+            android:textSize="50px"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:id="@+id/service_ip"
+            android:layout_below="@+id/local_ip_ts"
+            android:layout_marginTop="50px"
+            android:layout_toRightOf="@+id/service_ip_ts"
+            />
+    <!--  服务器端口号  -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80px"
+            android:text="内容标识:"
+            android:textSize="60px"
+            android:layout_marginLeft="50px"
+            android:id="@+id/service_port_ts"
+            android:layout_below="@+id/service_ip_ts"
+            android:layout_marginTop="50px"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+    <EditText
+            android:textColor="@color/white"
+            android:textSize="50px"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:id="@+id/service_port"
+            android:layout_below="@+id/service_ip_ts"
+            android:layout_marginTop="50px"
+            android:layout_toRightOf="@+id/service_port_ts"
+            />
+    <!--  图片库名称  -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80px"
+            android:text="图片地址:"
+            android:textSize="60px"
+            android:layout_marginLeft="50px"
+            android:id="@+id/service_img_ts"
+            android:layout_below="@+id/service_port_ts"
+            android:layout_marginTop="50px"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+    <EditText
+            android:textColor="@color/white"
+            android:textSize="50px"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:id="@+id/service_img"
+            android:layout_below="@+id/service_port_ts"
+            android:layout_marginTop="50px"
+            android:layout_toRightOf="@+id/service_port_ts"
+            />
+
+    <!--  保存按钮  -->
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="保 存 配 置"
+            ></Button>
+</RelativeLayout>

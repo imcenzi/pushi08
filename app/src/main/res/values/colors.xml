@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#ffff0000</color>
+    <color name="blue">#ff0d3ef2</color>
+    <color name="white">#ffffffff</color>
+    <color name="ksmcbj">#ff0310b7</color>
+    <color name="zzjzbj">#ff39aba3</color>
+    <color name="hzbj">#ffc8326f</color>
+    <color name="black">#ff020202</color>
+    <color name="ysxm">#ff00a6da</color>
+    <color name="orange">#DC6201</color>
+    <color name="dl">#2996BB</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="ors">#FF3300</color>
+    <color name="blue_air">#41A1D3</color>
+    <color name="blue_">#029FFF</color>
+    <color name="green">#01C681</color>
+    <color name="green_nanjing">#9BFFFF</color>
+    <color name="green_nanjing_">#53CEC4</color>
+    <color name="green2">#00773F</color>
+    <color name="black_1">#454344</color>
+    <color name="green3">#7DCBD7</color>
+    <color name="green4">#4EA4AC</color>
+    <color name="blue_xiao">#0C65B6</color>
+    <color name="blue_g">#019FC6</color>
+    <color name="pink">#F8298A</color>
+    <color name="blue_qian">#12A0C4</color>
+    <color name="red_jiangqiao">#99412D</color>
+    <color name="yellow_jiangqiao">#ff020202</color>
+    <color name="huise_jiangqiao">#FEE9C0</color>
+</resources>
